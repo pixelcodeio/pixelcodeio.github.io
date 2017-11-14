@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 600;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff");
+}
+
+h1 {
+    font-family: "San Francisco","Helvetica Nueue", sans-serif;
+    letter-spacing: 0;
+    margin-bottom: 0;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: .01em;
+}
+
+.logo {
+  width: 10%;
+  margin-bottom: 2em;
+}
