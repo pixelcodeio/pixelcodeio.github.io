@@ -1,19 +1,95 @@
 @font-face {
   font-family: "San Francisco";
+  font-weight: 200;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff2");
+}
+
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+@font-face {
+  font-family: "San Francisco";
   font-weight: 600;
   src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff");
 }
 
-h1 {
+p {
     font-family: "San Francisco","Helvetica Nueue", sans-serif;
     letter-spacing: 0;
     margin-bottom: 0;
-    color: #fff;
-    font-weight: 600;
+    color: #222;
+    font-weight: 200;
     letter-spacing: .01em;
 }
 
+h1, h2, h3{
+  font-family: "San Francisco","Helvetica Nueue", sans-serif;
+  letter-spacing: 0;
+  margin-bottom: 0;
+  color: #222;
+  letter-spacing: -.02em;
+  text-align: center;
+  font-weight: 400;
+}
+
+h4, h5, h6 {
+  font-family: "San Francisco","Helvetica Nueue", sans-serif;
+  letter-spacing: 0;
+  margin-bottom: 0;
+  color: #222;
+  font-weight: 200;
+  letter-spacing: -.01em;
+  text-align: center;
+}
+
+.logoText {
+  width: 7em;
+  margin-top: 2em;
+  margin-bottom: 4em;
+}
+
 .logo {
-  width: 6em;
-  margin-bottom: 2em;
+  width: 7em;
+}
+
+.u-brand {
+  color: #574FB7;
+}
+
+.u-dark {
+  color: #222;
+}
+
+.u-grey {
+  color: #999;
+}
+
+.u-bold {
+  font-weight: 600;
+}
+
+.u-light{
+  font-weight: 200;
+}
+
+input[type="submit"].button-primary {
+  box-shadow: 0 0 0 0 rgba(0,0,0,0.24), 0 9px 25px 1px rgba(0,0,0,0.18), 0 10px 45px 0 rgba(0,0,0,0.12);
+  background-color: #574FB7;
+  border-color: #574FB7;
+  font-family: "San Francisco";
+  font-size: 12px;
+  font-weight: 600;
+}
+input::placeholder {
+  font-size: 16px;
+  font-family: "San Francisco";
+}
+
+input[type="email"] {
+  font-size: 16px;
+  font-family: "San Francisco";
+  color: #222;
 }
