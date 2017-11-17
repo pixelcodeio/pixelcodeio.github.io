@@ -170,6 +170,9 @@ button,
 input[type="submit"],
 input[type="reset"],
 input[type="button"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   display: inline-block;
   height: 56px;
   padding: 0 30px;
