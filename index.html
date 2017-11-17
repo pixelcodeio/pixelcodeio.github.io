@@ -8,6 +8,7 @@
   <meta name="author" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="skeleton.css">
+  <link rel="stylesheet" href="font-awesome.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body style="background-color:#fcfcfc;">
@@ -16,13 +17,26 @@
         <a href="index.html"><img class="logoText" src="images/pixelcodeText.png"></img></a>
     </div>
   </div>
-  <div class="container">
-    <div class="row" style="margin-bottom:2em;">
+  <div class="container" style="margin-bottom:2em;">
+    <div class="row">
       <div class="ten columns offset-by-one">
         <h3 style="margin-bottom:.25em;">From design to Swift code <strong>instantaneously.</strong></h3>
         <h5>It doesn't make sense for designs to be done <u>twice</u> — once by the designer, and again by the developer.</h5>
       </div>
     </div>
+  </div>
+  <div class="container" style="margin-bottom:2em;">
+    <form action="https://formspree.io/tk@pixelcode.io" method="POST">
+    <div class="row">
+      <div class="four columns offset-by-three">
+        <input class="u-full-width" type="email" placeholder="Your email address" id="emailInput" name="email" />
+        <input type="hidden" name="_next" value="http://pixelcode.io/thanks.html" />
+      </div>
+      <div class="one column">
+        <center><input class="button-primary" class="u-full-width" type="submit" value="Notify Me"/></center>
+      </div>
+    </div>
+  </form>
   </div>
   <div class="container" style="margin-bottom:5em">
     <div class="row">
@@ -33,21 +47,17 @@
         </div>
       </div>
     </div>
-  <div class="container">
-    <form action="https://formspree.io/tk@pixelcode.io" method="POST">
-    <div class="row">
-      <div class="ten columns offset-by-one" style="margin-bottom:1em;">
-        <h5><strong>Sign up for early access.</strong></h5>
-</div>
-      <div class="four columns offset-by-three">
-        <input class="u-full-width" type="email" placeholder="Your email address" id="emailInput" name="email" />
-        <input type="hidden" name="_next" value="http://pixelcode.io/thanks.html" />
+    <div class="container">
+      <div class="row">
+        <div class="four columns offset-by-four">
+        <h5>Coming Soon</h5>
       </div>
-      <div class="two columns">
-        <center><input class="button-primary" type="submit" value="Submit"/></center>
+      <div class="two columns offset-by-five">
+        <center>
+        <i class="fa fa-facebook fa-2x" aria-hidden="true" style="margin-right: .5em;"></i>
+        <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+      </center>
       </div>
     </div>
-  </form>
-  </div>
       </body>
       </html>
