@@ -185,6 +185,14 @@ video {
   margin-bottom: 4em;
 }
 
+#contact a {
+  color: #574FB7;
+  text-decoration:none;
+}
+#contact a:hover {
+  color: #665FBD;
+}
+
 @media only screen and (max-width: 1024px) {
   .navbar a:not(#logo-container){
     display: none;
