@@ -110,7 +110,7 @@ input[type="email"] {
 }
 
 .logo {
-  width: 60%;
+  width: 88px;
   vertical-align: middle;
   display: inline-block;
 }
@@ -171,4 +171,15 @@ video {
   font-size: 12px !important;
   font-weight: 500 !important;
   color: inherit !important;
+}
+
+.headshot {
+  border-radius: 50%;
+  width: 25%;
+  margin-right: 2em;
+}
+
+.profiles {
+  display: flex;
+  align-items: center;
 }
