@@ -40,8 +40,11 @@
       <div class="four columns" style="margin-bottom: 4em;">
         <h3 class="u-medium" style="margin-bottom:.5em;">Accelerating the iOS app development process.</h3>
         <h5 class="u-light" style="margin-bottom:1em;">Designs don't have to be created twice — once by the designer and again by the developer.</h5>
-        <input class="u-full-width" type="email" placeholder="Enter your email address" id="emailInput" name="email">
-        <input class="button-primary" class="u-full-width" type="submit" value="Get early access"/>
+        <form action="https://formspree.io/tk@pixelcode.io" method="POST">
+          <input class="u-full-width" type="email" placeholder="Enter your email address" id="emailInput" name="email">
+          <input type="hidden" name="_next" value="http://pixelcode.io/confirm.html" />
+          <input class="button-primary" class="u-full-width" type="submit" value="Get early access"/>
+        </form>
       </div>
       <div class="eight columns">
         <video width=100% autoplay loop onclick="this.paused ? this.play() : this.pause();">
@@ -210,22 +213,24 @@
       <div id="footer" class="footer">
         <div class="container">
           <div class="row">
-            <div class="six columns" style="display: flex;">
+            <div class="one columns" style="display: flex;">
               <img id="footer-icon" src="../images/logo.svg"></img>
-              <h4 style="font-size: 16px; color: #999999;" class="u-light">Pixelcode makes your app development process faster so you have more time creating the best product possible.</h4>
             </div>
-            <div class="six columns" style="display: flex; justify-content: flex-end">
+              <div class="four columns">
+              <h6 style="color: #999999;" class="u-light">Pixelcode makes your app development process faster so you have more time creating the best product possible.</h6>
+            </div>
+            <div class="six columns offset-by-one" style="display: flex; justify-content: flex-end">
               <a class="footer-a" target="_blank" href="https://www.facebook.com/pixelcodeio">
-                <i class="fa fa-facebook-official fa-lg" aria-hidden="true"></i>
+                <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
               </a>
               <a class="footer-a" target="_blank" href="https://twitter.com/pixelcodeio">
-                <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
+                <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
               </a>
               <a class="footer-a" target="_blank" href="https://medium.com/@pixelcodeio">
-                <i class="fa fa-medium fa-lg" aria-hidden="true"></i>
+                <i class="fa fa-medium fa-2x" aria-hidden="true"></i>
               </a>
               <a class="footer-a" target="_blank" href="https://linkedin.com/company/pixelcodeio">
-                <i class="fa fa-linkedin fa-lg" aria-hidden="true"></i>
+                <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
               </a>
             </div>
           </div>
@@ -233,20 +238,5 @@
       </div>
       </div>
   </body>
-=======
-    <!-- </a></li>
-    <li><a target="_blank" href="https://twitter.com/pixelcodeio">
-    <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
-  </a></li>
-  <li><a target="_blank" href="https://medium.com/@pixelcodeio">
-  <i class="fa fa-medium fa-lg" aria-hidden="true"></i>
-</a></li>
-<li><a target="_blank" href="https://linkedin.com/company/pixelcodeio">
-<i class="fa fa-linkedin fa-lg" aria-hidden="true"></i>
-</a></li>
-</center>
-</div>
-</div>
-</div> -->
-</body> -->
+</body>
 </html>
