@@ -138,6 +138,7 @@ video {
 .button-div {
   background-color: #fff;
   border-color: #574FB7;
+  border-style: solid;
   border-width: 1px;
   letter-spacing: 0.04em;
   height: 44px;
@@ -147,22 +148,23 @@ video {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #574FB7 !important;
 }
 
 .button-div:hover {
   background-color: #665FBD;
   border-color: #665FBD;
-  color: white;
+  color: white !important;
 }
 .button-a {
-  color: #574FB7 !important;
   margin-left: 0px !important;
   font-size: 12px !important;
   font-weight: 500 !important;
+  color: inherit !important;
 }
 .button-a:hover {
-  color: white !important;
   margin-left: 0px !important;
   font-size: 12px !important;
   font-weight: 500 !important;
+  color: inherit !important;
 }
