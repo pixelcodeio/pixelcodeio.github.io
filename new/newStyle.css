@@ -188,18 +188,18 @@ video {
 #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
   cursor: pointer;
   border-radius: 1px;
-  height: 5px;
-  width: 35px;
+  height: 3px;
+  width: 24px;
   background: #574FB7;
   position: absolute;
   display: block;
   content: '';
 }
 #nav-toggle span:before {
-  top: -10px;
+  top: -8px;
 }
 #nav-toggle span:after {
-  bottom: -10px;
+  bottom: -8px;
 }
 
 #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
@@ -217,7 +217,8 @@ video {
 #nav-toggle.active span:after {
   transform: rotate(-45deg);
 }
-@media only screen and (max-width: 798px) {
+
+@media only screen and (max-width: 1024px) {
   .navbar a:not(#logo-container){
     display: none;
   }
