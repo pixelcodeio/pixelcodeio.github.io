@@ -62,7 +62,7 @@ input[type="email"] {
 }
 
 .navbar {
-  height: 56px;
+  height: 72px;
   top: 0;
   z-index: 1;
   background-color: #fff;
@@ -79,8 +79,15 @@ input[type="email"] {
 }
 
 .navbar a {
-  margin-left: 24px;
+  margin-left: 40px;
   font-size: 16px;
+  font-weight: 400;
+  color: #222;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #574FB7;
 }
 
 #main {
