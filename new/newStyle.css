@@ -185,6 +185,17 @@ video {
   margin-bottom: 4em;
 }
 
+.icon {
+  width: 12%;
+  height: 12%;
+  margin-right: 2em;
+}
+
+.features {
+  display: flex;
+  margin-bottom: 4em;
+}
+
 #contact a {
   color: #574FB7;
   text-decoration:none;
