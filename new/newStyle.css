@@ -66,16 +66,39 @@ input[type="email"] {
   top: 0;
   z-index: 1;
   background-color: #fff;
-  display: inline-block;
+  display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
-  box-shadow: 0 3px 6px 0 #dbdbdb;
-  margin-bottom: 8em;
+  box-shadow: 0 0 0 0 #dbdbdb;
+}
+
+.right-align {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar a {
+  margin-left: 24px;
+  font-size: 16px;
+}
+
+#main {
+  padding-top: 80px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.sticky + #main {
+  padding-top: 80px;
 }
 
 .logo {
-  width: 50%;
+  width: 60%;
   vertical-align: middle;
   display: inline-block;
 }
