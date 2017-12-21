@@ -76,6 +76,7 @@ input[type="email"] {
 .right-align {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
 }
 
 .navbar a {
@@ -132,4 +133,34 @@ video {
 
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.button-div {
+  background-color: #574FB7;
+  border-color: #574FB7;
+  letter-spacing: 0.04em;
+  height: 30px;
+  border-radius: 4px;
+  padding: 2px 16px;
+  margin-left: 24px !important; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button-div:hover {
+  background-color: #665FBD;
+  border-color: #665FBD;
+  color: white;
+}
+.button-a {
+  color: white !important; 
+  margin-left: 0px !important; 
+  font-size: 12px !important; 
+  font-weight: 500 !important;
+}
+.button-a:hover {
+  color: white !important; 
+  margin-left: 0px !important; 
+  font-size: 12px !important; 
+  font-weight: 500 !important;
 }
