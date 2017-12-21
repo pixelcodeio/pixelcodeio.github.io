@@ -253,3 +253,39 @@ video {
     margin-right: 40px;
   }
 }
+
+.mockup {
+  width: 80%;
+  margin-bottom: 1em;
+}
+
+@media only screen and (max-width: 1000px) {
+  .mockup {
+    width: 50%;
+  }
+}
+
+code {
+  background-color: #F5F5F5;
+  padding: .5rem .5rem;
+  font-size: 95%;
+}
+
+#learn h6{
+  line-height: 1.8;
+}
+
+button {
+  background-color: #574FB7;
+  border-color: #574FB7;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+button:hover {
+  color: #fff;
+  background-color: #665FBD;
+  border-color: #665FBD;
+}
