@@ -3,7 +3,6 @@ window.onload = function() {
   var elementTarget = document.getElementById("section-2");
   var max1 = 3.0;
   var max2 = 6.0;
-  console.log(window.scrollY);
   if (window.scrollY < 200) {
     max1 = 3.0 * window.scrollY / 200;
     max2 = 6.0 * window.scrollY / 200;
@@ -28,6 +27,10 @@ window.onload = function() {
       navbar.style.boxShadow = "0 3px 6px 0 #dbdbdb";
     }
   });
+  document.querySelector( "#nav-toggle" )
+    .addEventListener( "click", function() {
+      this.classList.toggle( "active" );
+    });
 }
 
 function go_to(id) {
