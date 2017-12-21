@@ -206,3 +206,23 @@ video {
     display: block !important;
   }
 }
+
+#footer {
+  background-color: #222222;
+  padding-top: 4em;
+  height: 260px;
+}
+
+#footer a:hover {
+  color: white;
+}
+
+#footer-icon {
+  width: 48px;
+  height: 48px;
+  margin-right: 62px;
+}
+
+.footer-a {
+  margin-left: 28px;
+}
