@@ -31,10 +31,6 @@ window.onload = function() {
       navbar.style.boxShadow = "0 3px 6px 0 #dbdbdb";
     }
   });
-  document.querySelector( "#nav-toggle" )
-    .addEventListener( "click", function() {
-      this.classList.toggle( "active" );
-    });
 }
 
 function go_to(id) {
