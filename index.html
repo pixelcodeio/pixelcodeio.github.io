@@ -24,13 +24,6 @@
           </a>
         </div>
         <div class="ten columns right-align">
-          <a href="javascript:go_to('#product');">Product</a>
-          <a href="javascript:go_to('#features');">Features</a>
-          <a href="javascript:go_to('#learn');">Learn</a>
-          <a href="javascript:go_to('#about');">About</a>
-          <a href="javascript:go_to('#contact');">Contact</a>
-          <div class="button-div" onclick="javascript:go_to('#main');">
-            <a class="button-a" href="javascript:go_to('#main');">GET EARLY ACCESS</a>
           </div>
         </div>
       </div>
@@ -41,11 +34,8 @@
       <div class="four columns" style="margin-bottom: 4em;">
         <h3 class="u-medium" style="margin-bottom:.5em;">Build iOS apps faster.</h3>
         <h5 class="u-light" style="margin-bottom:1em;">Transform your designs into industry standard Swift code instantly.</h5>
-        <form action="https://formspree.io/tk@pixelcode.io" method="POST">
-          <input class="u-full-width" type="email" placeholder="Enter your email address" id="emailInput" name="email">
-          <input type="hidden" name="_next" value="http://pixelcode.io/confirm.html" />
-          <input class="button-primary" class="u-full-width" type="submit" value="Get early access"/>
-        </form>
+        <a href="https://github.com/young-k/pixelcode"><input class="button-primary" class="u-full-width" type="submit" value="Github Repository"></a>
+        <a href="https://pixelcode.io/docs"><input class="button-secondary" class="u-full-width" type="submit" value="Documentation"></a>
       </div>
       <div class="eight columns">
         <video width=100% autoplay loop onclick="this.paused ? this.play() : this.pause();">
@@ -55,92 +45,11 @@
       </div>
     </div>
 
-    <div id="product" class="section">
-      <div class="container">
-        <div class="row">
-          <div class="twelve columns">
-            <h4 class="u-bold u-brand" style="margin-bottom:2em; margin-top: 4em;">Product</h4>
-          </div>
-        </div>
-        <div class="row">
-          <div class="eight columns">
-            <img src="./images/webapp.png"></img>
-          </div>
-          <div class="four columns">
-            <h5 style="margin-bottom: 1em;">Pixelcode is a web-based tool that allows you to upload iOS designs and automatically generate Swift code.</h5>
-            <ol>
-              <li>Follow our documentation to name components in your designs.</li>
-              <li>Simply upload the designs onto the web app using the Pixelcode plugin.</li>
-              <li>View screens, download functional Swift code, leave comments to clarify anything, and view the up-to-date style guide.</li>
-              <li>Link screens using our Navigation feature so that buttons lead to different screens.</li>
-            </ol>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div id="features" class="section">
-      <div class="container">
-        <div class="row">
-          <div class="twelve columns">
-            <h4 class="u-bold u-brand" style="margin-bottom:2em; margin-top: 4em;">Features</h4>
-          </div>
-        </div>
-        <div class="row">
-          <div class="four columns features">
-            <img class="icon" src="./images/code.png" style="margin-bottom: 1em;">
-            <div>
-              <h5>Industry Swift Code</h5>
-              <h6>Generate code that follows industry standard iOS developer conventions and uses AutoLayout to ensure pixel-perfect designs for all different sizes.</h6>
-            </div>
-          </div>
-          <div class="four columns features">
-            <img class="icon" src="./images/nav.png" style="margin-bottom: 1em;">
-            <div>
-              <h5>Navigation</h5>
-              <h6>Create transitions easily between iOS screens with our web application so that action buttons lead to different screens.</h6>
-            </div>
-          </div>
-          <div class="four columns features">
-            <img class="icon" src="./images/comment.png" style="margin-bottom: 1em;">
-            <div>
-              <h5>Comments</h5>
-              <h6>Discuss designs with designers, managers, and developers. Leave comments to clarify anything.</h6>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="four columns features">
-            <img class="icon" src="./images/guide.png" style="margin-bottom: 1em;">
-            <div>
-              <h5>Style Guide</h5>
-              <h6>Upload your designs to automatically generate style guides to help developers easily view all the fonts, sizes, and colors.</h6>
-            </div>
-          </div>
-          <div class="four columns features">
-            <img class="icon" src="./images/sketch.png" style="margin-bottom: 1em;">
-            <div>
-              <h5>Sketch Friendly</h5>
-              <h6>Sync your Sketch artboards to the web application using our Pixelcode plugin.</h6>
-            </div>
-          </div>
-          <div class="four columns features">
-            <img class="icon" src="./images/more.png" style="margin-bottom: 1em;">
-            <div>
-              <h5>Components</h5>
-              <h6>Transform iOS components such as <code>UIButton</code>, <code>UITableView</code>, and <code>UINavBar</code> into functional Swift code. More components are being added every week!</h6>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
   <div id="learn" class="section">
     <div class="container">
       <div class="row">
         <div class="twelve columns">
-          <h4 class="u-bold u-brand" style="margin-bottom:2em; margin-top: 4em;">Learn</h4>
+          <h4 class="u-bold u-brand" style="margin-bottom:2em; margin-top: 4em;">Supported Components</h4>
         </div>
       </div>
       <div class="row">
@@ -169,7 +78,7 @@
         </div>
         <div class="four columns" style="margin-bottom: 1em;">
           <h5 class="u-medium">All Supported Components</h5>
-          <button>Coming Soon</button>
+          <a href="https://pixelcode.io/docs"><button>Documentation</button></a>
         </div>
       </div>
     </div>
@@ -177,94 +86,46 @@
 </div>
 
 <div id="about" class="section">
-  <div class="container">
+  <div class="container" style="padding-bottom: 8em;">
     <div class="row">
       <div class="twelve columns">
-        <h4 class="u-bold u-brand" style="margin-bottom:2em; margin-top: 4em;">About</h4>
+        <h4 class="u-bold u-brand" style="margin-bottom:2em; margin-top: 4em;">About Pixelcode</h4>
       </div>
     </div>
     <div class="row" style="margin-bottom: 3em;">
       <div class="six columns">
         <h4 class="u-medium">Our Story</h4>
-        <h6 class="u-light">Our team, comprised of a product designer, iOS developer, and backend developer saw a gap in existing design hand-off tools. We realized that despite having pixel-perfect designs, developers spend much of their time coding pixels. We built Pixelcode to streamline this process by instantly generating functional code from designs.</h6>
+        <h6 class="u-light">Our team saw a gap in existing design hand-off tools. We realized that despite having pixel-perfect designs, developers spend much of their time coding pixels. We built Pixelcode to streamline this process by instantly generating functional code from designs.</h6>
       </div>
       <div class="six columns">
         <h4 class="u-medium">Our Mission</h4>
-        <h6 class="u-light">Our goal is to make iOS app development as seamless as possible. By reducing the time spent on coding pixels, teams have more time to focus on more important things such as functionality.</h6>
+        <h6 class="u-light">Our goal is to make iOS app development as seamless as possible. By reducing the time spent on coding pixels, teams can now focus on more important things.</h6>
       </div>
     </div>
     <div class="row">
       <div class="four columns profiles">
         <img class="headshot" src="./images/tk.png"></img>
         <div>
-          <h4 class="u-bold" style="margin-bottom: 0em;">TK</h4>
-          <h6 class="u-light" style="margin-bottom: 0em;">Co-founder / CEO</h6>
+          <a href="http://tkkong.me/"><h4 class="u-bold" style="margin-bottom: 0em;">TK</h4></a>
+          <h6 class="u-light" style="margin-bottom: 0em;">Designer</h6>
         </div>
       </div>
       <div class="four columns profiles">
         <img class="headshot" src="./images/young.png"></img>
         <div>
-          <h4 class="u-bold" style="margin-bottom: 0em;">Young</h4>
-          <h6 class="u-light" style="margin-bottom: 0em;">Co-founder / CTO</h6>
+          <a href="https://youngkim.co/"><h4 class="u-bold" style="margin-bottom: 0em;">Young</h4></a>
+          <h6 class="u-light" style="margin-bottom: 0em;">Backend Developer</h6>
         </div>
       </div>
       <div class="four columns profiles">
         <img class="headshot" src="./images/kevin.png"></img>
         <div>
-          <h4 class="u-bold" style="margin-bottom: 0em;">Kevin</h4>
-          <h6 class="u-light" style="margin-bottom: 0em;">Co-founder / Lead Developer</h6>
+          <a href="https://www.linkedin.com/in/kevinchan159/"><h4 class="u-bold" style="margin-bottom: 0em;">Kevin</h4></a>
+          <h6 class="u-light" style="margin-bottom: 0em;">iOS Developer</h6>
         </div>
       </div>
     </div>
   </div>
-</div>
-
-<div id="contact" class="section">
-  <div class="container">
-    <div class="row">
-      <div class="twelve columns">
-        <h4 class="u-bold u-brand" style="margin-bottom:2em; margin-top: 4em;">Contact</h4>
-      </div>
-    </div>
-    <div class="row" style="margin-bottom: 8em;">
-      <div class="four columns">
-        <h5 class="u-medium" style="margin-bottom:0;">Business Inquiries</h5>
-        <a href="mailto:business@pixelcode.io"><h5>business@pixelcode.io</h5></a>
-      </div>
-      <div class="four columns">
-        <h5 class="u-medium" style="margin-bottom:0;">Support</h5>
-        <a href="mailto:support@pixelcode.io"><h5>support@pixelcode.io</h5></a>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div id="footer" class="footer">
-  <div class="container">
-    <div class="row">
-      <div class="one columns" style="display: flex;">
-        <a href="javascript:go_to('#main');"><img id="footer-icon" src="./images/logo.svg"></img></a>
-      </div>
-      <div class="four columns">
-        <h6 style="color: #999999; margin-bottom: 4em;" class="u-light">Pixelcode makes the iOS development process faster by instantly generating code from designs so you have more time to create the best product possible.</h6>
-      </div>
-      <div class="six columns offset-by-one footer-links">
-        <a class="footer-a" target="_blank" href="https://www.facebook.com/pixelcodeio">
-          <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
-        </a>
-        <a class="footer-a" target="_blank" href="https://twitter.com/pixelcodeio">
-          <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
-        </a>
-        <a class="footer-a" target="_blank" href="https://medium.com/@pixelcodeio">
-          <i class="fa fa-medium fa-2x" aria-hidden="true"></i>
-        </a>
-        <a class="footer-a" target="_blank" href="https://linkedin.com/company/pixelcodeio">
-          <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
-        </a>
-      </div>
-    </div>
-  </div>
-</div>
 </div>
 
 </body>

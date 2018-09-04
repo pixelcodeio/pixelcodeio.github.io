@@ -139,7 +139,7 @@ video {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-.button-div {
+.button-secondary {
   background-color: #fff;
   border-color: #574FB7;
   border-style: solid;
@@ -148,29 +148,15 @@ video {
   height: 44px;
   border-radius: 4px;
   padding: 0px 16px;
-  margin-left: 40px !important;
   display: flex;
   align-items: center;
   justify-content: center;
   color: #574FB7 !important;
 }
 
-.button-div:hover {
-  background-color: #665FBD;
+.button-secondary:hover {
   border-color: #665FBD;
-  color: white !important;
-}
-.button-a {
-  margin-left: 0px !important;
-  font-size: 12px !important;
-  font-weight: 500 !important;
-  color: inherit !important;
-}
-.button-a:hover {
-  margin-left: 0px !important;
-  font-size: 12px !important;
-  font-weight: 500 !important;
-  color: inherit !important;
+  color: #665FBD;
 }
 
 .headshot {
@@ -305,4 +291,14 @@ li {
   list-style-position: inside;
   text-indent: -1em;
   padding-left: 1em;
+}
+
+#about a {
+text-decoration: none;
+color: #222;
+}
+
+#about a:hover {
+  text-decoration: none;
+  color: #222;
 }
